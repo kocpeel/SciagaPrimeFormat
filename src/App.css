@@ -7,10 +7,11 @@
 
 div#jsonRender {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 3rem;
   max-height: 90vh;
   overflow-y: scroll;
+  flex-wrap: wrap;
 }
 
 div#jsonRender h1 {
@@ -24,6 +25,7 @@ div#jsonRender div {
   align-items: center;
   gap: 3rem;
   height: auto;
+  width: 100%;
   border-left: 1em solid white;
   padding: 2em 2em 2em 1em;
   border-bottom: 1px solid white;
@@ -40,11 +42,10 @@ div#jsonRender div h2 {
   align-items: center;
   text-transform: capitalize;
   min-width: 14rem;
-  height: 100%;
 }
 
 div#jsonRender div img {
-  max-height: 15rem;
+  max-height: 20rem;
 }
 
 div#jsonRender div:last-child {
@@ -58,4 +59,17 @@ div#jsonRender div:last-child {
     border: 0;
     border-top: 1em solid white;
   }
+}
+
+#jsonRender {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#jsonRender.row {
+  flex-direction: row;
+}
+
+#jsonRender.column {
+  flex-direction: column;
 }
