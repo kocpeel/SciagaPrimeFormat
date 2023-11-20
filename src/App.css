@@ -43,6 +43,10 @@ div#jsonRender div h2 {
   height: 100%;
 }
 
+div#jsonRender div img {
+  max-height: 15rem;
+}
+
 div#jsonRender div:last-child {
   border-bottom: 1px solid transparent;
 }

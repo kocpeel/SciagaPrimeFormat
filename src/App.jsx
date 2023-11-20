@@ -25,6 +25,7 @@ function App() {
               <div key={index}>
                 <h2 className="nazwaTematu">{temat.nazwaTematu}</h2>
                 <span className="description">{temat.description}</span>
+                {temat.img && <img src={temat.img} />}
               </div>
             ))}
           </>
