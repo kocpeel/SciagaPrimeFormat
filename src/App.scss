@@ -50,7 +50,8 @@ div#jsonRender {
   div#jsonRender {
     div {
       flex-direction: column;
-      padding: 2rem;
+      border: 0;
+      border-top: 1em solid white;
     }
   }
 }
