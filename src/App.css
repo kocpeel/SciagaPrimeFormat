@@ -12,6 +12,7 @@ div#jsonRender {
   max-height: 90vh;
   overflow-y: scroll;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 div#jsonRender h1 {
